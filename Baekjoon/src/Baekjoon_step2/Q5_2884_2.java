@@ -7,7 +7,6 @@ package Baekjoon_step2;
 import java.util.*;
 
 public class Q5_2884_2 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int H = sc.nextInt();
@@ -24,11 +23,7 @@ public class Q5_2884_2 {
 			}
 		}
 
-		if (Time > 1440) { // 시간이 24시간을 초과할 때
-			Time = (Time % 1440);
-		}
-
-		if (Time / 60 == 24) { // 시침이 24일 때
+		if (Time > 1440 || Time / 60 == 24) { // 시간이 23:59를 초과할 때
 			Time %= 1440;
 		}
 
