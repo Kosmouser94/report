@@ -11,7 +11,7 @@ public class Q5_2884_2 {
 		Scanner sc = new Scanner(System.in);
 		int H = sc.nextInt();
 		int M = sc.nextInt();
-		int alarm = -45;
+		int alarm = -45;	// 음수 : 일찍, 양수 : 늦게
 		int timelimit = (H * 60) + M + alarm;
 		sc.close();
 
