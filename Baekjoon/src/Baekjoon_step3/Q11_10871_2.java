@@ -1,3 +1,4 @@
+//¹Ì¿Ï¼º
 package Baekjoon_step3;
 
 import java.io.BufferedReader;
@@ -17,12 +18,14 @@ public class Q11_10871_2 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());
 		int X = Integer.parseInt(st.nextToken());
-
+		
+		st = new StringTokenizer(br.readLine());
+		
 		for (int i = 0; i < N; i++) {
-			StringTokenizer kt = new StringTokenizer(br.readLine());
-			int V = Integer.parseInt(kt.nextToken());
+			int V = Integer.parseInt(st.nextToken());
+			
 			if (V < X) {
-				bw.write(V);
+				bw.write(V+"\n");
 			}
 
 		}
