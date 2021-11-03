@@ -29,6 +29,8 @@ public class Q11_10871_2 {
 			}
 
 		}
+		
+		
 		bw.close();
 
 	}
