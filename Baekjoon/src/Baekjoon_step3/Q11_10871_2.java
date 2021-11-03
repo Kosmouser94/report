@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-//�̿ϼ�
-=======
-//미완성
-
->>>>>>> refs/remotes/origin/master
 package Baekjoon_step3;
 
 import java.io.BufferedReader;
