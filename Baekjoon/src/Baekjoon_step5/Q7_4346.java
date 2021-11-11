@@ -10,16 +10,16 @@ public class Q7_4346 {
 		int testcase = sc.nextInt();
 
 		for (int i = 0; i < testcase; i++) {
-			int sum = 0;				// ¼ºÀû ÃÑ ÇÕ°è
-			int student = sc.nextInt();	// ÇÐ»ý ¼ö
+			int sum = 0;				// ì„±ì  ì´ í•©ê³„
+			int student = sc.nextInt();		// í•™ìƒ ìˆ˜
 			int[] arr = new int[student];
 			for (int j = 0; j < student; j++) {
 				int score = sc.nextInt();
-				arr[j] = score;			// ½ÃÇè Á¡¼ö
+				arr[j] = score;			// ì‹œí—˜ ì ìˆ˜
 				sum += arr[j];
 			}
-			double Avg = 0;				// Æò±Õ
-			int count = 0;				// Æò±ÕÀÌ»ó ÇÐ»ý¼ö
+			double Avg = 0;				// í‰ê· 
+			int count = 0;				// í‰ê· ì´ìƒ í•™ìƒìˆ˜
 			Avg = sum / student;
 			for (int j = 0; j < student; j++) {
 				if (arr[j] > Avg) {
