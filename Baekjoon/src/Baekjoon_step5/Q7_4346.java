@@ -14,8 +14,8 @@ public class Q7_4346 {
 			int student = sc.nextInt();		// 학생 수
 			int[] arr = new int[student];
 			for (int j = 0; j < student; j++) {
-				int score = sc.nextInt();
-				arr[j] = score;			// 시험 점수
+				int score = sc.nextInt();	// 시험 점수
+				arr[j] = score;			
 				sum += arr[j];
 			}
 			double Avg = 0;				// 평균
